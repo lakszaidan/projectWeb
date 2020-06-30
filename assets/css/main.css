@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    background-color: white;
+    padding-top: 10px;
+    /* z-index: auto; */
+    /* width: 85%; */
+    /* float: right; */
+    
+}
+
+#mainheader {
+    padding-bottom: 20px;
+}
+
+.titles {
+    margin-top: -19%;
+    letter-spacing: 10px;
+    line-height: 0.6;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+}
+
+.title1 {
+    margin-right: 10%;
+}
+
+.title2 {
+    margin-left: 4.5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    transition: .2s ease-out;
+    font-weight: bold;
+    background-color: rgb(209, 91, 49);
+    padding: 20px;
+}
+
+nav li {
+    list-style: none;
+    margin: 30px;
+    display: inline;
+}
+
+nav {
+    background-color: rgb(236, 100, 51);
+    padding: 5px;
+    text-align: center;
+    
+    /* Sticky utk nav tidak berfungsi */
+
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+}
+
+
+footer {
+    color: white;
+    background-color: rgb(228, 56, 26);
+    bottom: 0;  
+    margin-top: 15%;
+    padding: 13px;
+    text-align: center;
+    box-shadow: 4px 0 8px 0 rgba(56, 8, 8, 0.699); 
+}
+
+p {
+    padding: 0 30px 0 20px;
+}
+
+article {
+    padding: 0 170px 0 100px;
+    line-height: 1.5em;
+    /* font-size: 1em; */
+}
+
+figure {
+    font-size: 12px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+section {
+    padding-left: 50px;
+}
+
+
+
+
